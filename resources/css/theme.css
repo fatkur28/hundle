@@ -1,0 +1,397 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.padd1 {
+    width: 85%;
+    margin: 0 auto;
+    justify-content:
+}
+
+.bxhead {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    width: 100%;
+    height: 800px;
+    background-image: url("../images/bg-hero-desktop.svg");
+    background-size: cover;
+    background-position: center;
+    background-color: hsl(193, 100%, 96%);
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    padding-top: 70px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.logo {
+    width: 190px;
+}
+
+.logo img {
+    width: 180px;
+    height: auto;
+    float: left;
+}
+
+.try {
+    float: right;
+}
+
+.try button {
+    border: none;
+    background-color: #FFF;
+    padding: 13px 60px;
+    border-radius: 40px;
+    box-shadow: 3px 3px 15px -10px rgba(0, 0, 0, 0.45);
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.4s;
+}
+
+.try button:hover {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    box-shadow: 3px 3px 15px -10px rgba(0, 0, 0, 0.45);
+    cursor: pointer;
+}
+
+.hleft {
+    width: 35%;
+    height: auto;
+    float: left;
+}
+
+.hleft h1 {
+    padding: 50px 0;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.hleft p {
+    font-size: 15px;
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hleft button {
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    padding: 15px 55px;
+    color: white;
+    border-radius: 40px;
+    box-shadow: 0 3px 23px -10px rgba(0, 0, 0, 0.45);
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.4s;
+}
+
+.hleft button:hover {
+    background-color: #FFF;
+    color: black;
+    box-shadow: 3px 3px 15px -10px rgba(0, 0, 0, 0.45);
+    cursor: pointer;
+}
+
+.hright {
+    width: 65%;
+    height: 400px;
+    float: right;
+    padding: 50px 100px;
+}
+
+.hright img {
+    width: 125%;
+}
+
+.bxconten {
+    width: 100%;
+    height: auto;
+    padding: 100px 0 0 0;
+}
+
+.padd2 {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.box {
+    width: 100%;
+    height: 380px;
+    border-radius: 20px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
+    margin: 50px 0;
+    transition: 0.4s;
+}
+
+.box:hover {
+    box-shadow: 1px 2px 20px grey;
+    cursor: pointer;
+}
+
+.itleft {
+    width: 60%;
+    float: left;
+}
+
+.itleft h2 {
+    padding: 100px;
+    padding-top: 130px;
+    padding-bottom: 15px;
+}
+
+.itleft p {
+    padding-left: 100px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.itright {
+    width: 40%;
+    float: right;
+    margin-top: 40px;
+}
+
+.itright img {
+    width: 70%;
+    margin-left: 100px;
+
+}
+
+.itleft-2 {
+    width: 60%;
+    float: right;
+}
+
+.itleft-2 h2 {
+    padding: 100px;
+    padding-top: 130px;
+    padding-bottom: 15px;
+}
+
+.itleft-2 p {
+    padding-left: 100px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.itright-2 {
+    width: 40%;
+    float: left;
+    margin-top: 40px;
+}
+
+.itright-2 img {
+    width: 70%;
+    margin-left: 100px;
+
+}
+
+
+.footer {
+    background-color: hsl(192, 100%, 9%);
+    height: 500px;
+    width: 100%;
+    margin-top: 300px;
+}
+
+.join {
+    width: 55%;
+    height: 270px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 10px 23px -10px rgba(0, 0, 0, 0.45);
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -150px;
+}
+
+
+
+.join h2 {
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 70px;
+    font-weight: bold;
+}
+
+.join button {
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    padding: 25px 90px;
+    color: white;
+    border-radius: 40px;
+    box-shadow: 0 3px 23px -10px rgba(0, 0, 0, 0.45);
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 200px;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.join button:hover {
+    background-color: #FFF;
+    color: black;
+    box-shadow: 3px 3px 15px -10px rgba(0, 0, 0, 0.45);
+    cursor: pointer;
+}
+
+.footernya {
+    width: 100%;
+    height: 300px;
+    float: left;
+    margin-top: 200px;
+    /* background-color: red; */
+}
+
+.lg img {
+    width: 22%;
+    margin-left: -20px;
+    padding-bottom: 20px;
+}
+
+.fleft {
+    height: auto;
+    width: 30%;
+    color: white;
+    float: left;
+}
+
+.fikon {
+    width: 10%;
+    height: 60px;
+    float: left;
+}
+
+.ftext {
+    width: 90%;
+    float: right;
+    font-size: 14px;
+    height: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ftm-i {
+    width: 10%;
+    height: 40px;
+    float: left;
+}
+
+.ftm {
+    width: 90%;
+    float: right;
+    font-size: 14px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tengah {
+    height: 100px;
+    width: 20%;
+    float: left;
+    padding-left: 100px;
+}
+
+.tengah p {
+    font-size: 15px;
+    color: white;
+    padding: 10px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tengah a {
+    text-decoration: none;
+    color: white;
+    transition: 0, 4s;
+}
+
+.tengah a:hover {
+    color: hsl(322, 100%, 66%);
+    cursor: pointer;
+}
+
+.right {
+    height: 100px;
+    width: 30%;
+    float: left;
+    padding: 15px;
+    color: white;
+    padding-left: 100px;
+}
+
+.ikons-f {
+    margin: 0 10px;
+    padding: 3px 10px;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+}
+
+.ikons-t {
+    margin: 0 10px;
+    padding: 3px 7px;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+}
+
+.ikons-i {
+    margin: 0 10px;
+    padding: 3px 7px;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+}
+
+.ikons-f,
+.ikons-t,
+.ikons-i,
+a {
+    color: white;
+}
+
+.ikons-f a:hover {
+    color: blue;
+}
+
+.ikons-t a:hover {
+    color: cyan;
+}
+
+.ikons-i a:hover {
+    color: red;
+}
+
+.copy {
+    width: 100%;
+    height: 100px;
+    background-color: hsl(192, 100%, 9%);
+}
+
+.copy p {
+    font-size: 11px;
+    float: right;
+    color: white;
+    padding-right: 100px;
+    line-height: 100px;
+}
+
+.copy a {
+    text-decoration: none;
+    color: coral;
+}
+
+.copy a:hover {
+    color: rgb(151, 73, 44);
+    text-decoration: underline;
+}
